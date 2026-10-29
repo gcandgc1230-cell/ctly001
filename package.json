@@ -1,6 +1,6 @@
 {
   "name": "dsh-plugin-organizer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Upgrades the Plugins page Installed area with categories, drag-and-drop ordering, search/filter, favorites, and durable layout persistence.",
   "type": "module",
   "license": "MIT",

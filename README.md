@@ -61,13 +61,13 @@
 
 ```bash
 # Release 安装包（推荐，不需要 Git）
-dsh plugin --profile desktop add "https://github.com/gcandgc1230-cell/ctly001/releases/download/v0.1.0/dsh-plugin-organizer-0.1.0.tgz"
+dsh plugin --profile desktop add "https://github.com/gcandgc1230-cell/ctly001/releases/download/v0.1.1/dsh-plugin-organizer-0.1.1.tgz"
 
 # GitHub 源码（需要本机安装 Git）
 dsh plugin --profile desktop add "github:gcandgc1230-cell/ctly001"
 
 # 本地 tarball
-dsh plugin --profile desktop add "D:/path/dsh-plugin-organizer-0.1.0.tgz"
+dsh plugin --profile desktop add "D:/path/dsh-plugin-organizer-0.1.1.tgz"
 ```
 
 安装后在「插件」页启用本插件并重启。发布到 GitHub / npm 的完整步骤见
