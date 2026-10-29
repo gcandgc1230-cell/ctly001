@@ -866,8 +866,8 @@ window.__ModuleLoader__.load({
 .dpo-btn:hover:not(:disabled){background:var(--dsw-alias-bg-layer-2)}
 .dpo-btn:focus-visible{outline:2px solid var(--dsw-alias-brand-primary);outline-offset:2px}
 .dpo-btn:disabled{opacity:.45;cursor:default}
-.dpo-btn-primary{background:var(--dsw-alias-brand-primary);border-color:transparent;color:#fff}
-.dpo-btn-primary:hover:not(:disabled){background:var(--dsw-alias-brand-primary);filter:brightness(1.08)}
+.dpo-btn-primary{background:color-mix(in srgb,var(--dsw-alias-brand-primary) 18%,var(--dsw-alias-bg-layer-1));border-color:color-mix(in srgb,var(--dsw-alias-brand-primary) 42%,transparent);color:var(--dsw-alias-label-primary)}
+.dpo-btn-primary:hover:not(:disabled){background:color-mix(in srgb,var(--dsw-alias-brand-primary) 26%,var(--dsw-alias-bg-layer-1))}
 .dpo-btn-danger{border-color:transparent;background:var(--dsw-alias-state-error-primary);color:#fff}
 .dpo-btn-danger:hover:not(:disabled){filter:brightness(1.07)}
 .dpo-btn-quiet{border-color:transparent;color:var(--dsw-alias-label-secondary)}
