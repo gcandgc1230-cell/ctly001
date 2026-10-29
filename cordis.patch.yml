@@ -1,0 +1,9 @@
+- insert:
+    - id: plugin-organizer
+      name: dsh-plugin-organizer
+# This page replaces the shipped Plugins panel. Disabling the shipped client
+# row from the bundle layer (not the profile patch) means it comes back
+# automatically when this bundle is disabled or removed.
+- id: ui-plugin-manager
+  name: "@deepseek-ai/dsh-client-ui-plugin-manager"
+  disabled: true
